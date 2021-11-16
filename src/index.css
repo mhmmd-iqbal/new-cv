@@ -1,13 +1,71 @@
 body {
-  margin: 0;
+  /* margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+  font-size: 1rem;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+#home {
+  background: url('./assets/img/bgnd.jpg');
+}
+
+.message-box h2 {
+  text-align: left;
+}
+
+.short-line {
+  background-color: black;
+  border: 1px solid black;
+  width: 200px;
+}
+
+.long-line {
+  border: 2px solid black;
+  width: 100%;
+  background-color: black;
+}
+
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 100vmin;
+}
+
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.degree {
+  text-align: left;
+}
+
+.text-information {
+  top: 10px;
+  position: relative;
+}
+
+.gallery-single img {
+  /* max-height: 100px; */
+  /* width: auto; */
 }
